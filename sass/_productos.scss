@@ -1,0 +1,79 @@
+.contenedor{
+    .fotos1{
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        box-shadow: 3px 0 5px rgb(0, 0, 0,1);
+        transition: transform .3s;
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    }
+    .fotos2{
+        width:350px;
+        height: 250px;
+        border-radius: 10px;
+        box-shadow: 3px 0 5px rgb(0, 0, 0,1);
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    }
+    .fotos3{
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        box-shadow: 3px 0 5px rgb(0, 0, 0,1);
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    }
+    .fotos4{
+        width: 350px;
+        height: 290px;
+        border-radius: 10px;
+        box-shadow: 3px 0 5px rgb(0, 0, 0,1);
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    }  
+    .fotos5{
+        width:350px ;
+        height: 290px;
+        border-radius: 10px;
+        box-shadow: 3px 0 5px rgb(0, 0, 0,1);
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    } 
+    .fotos6{
+        width: 350px;
+        height: 290px;
+        border-radius: 10px;
+        box-shadow: 3px 0 5px rgb(0, 0, 0,1);
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    }
+}
+@mixin tamanos($ancho,$alto){
+    width: $ancho;
+    height: $alto;
+}
+.contenedor .fotos1{
+    @include tamanos(350px,250px); 
+}
+.contenedor .fotos2{
+    @include tamanos(350px,250px)
+}
+.contenedor .fotos3{
+    @include tamanos(350px,250px)
+}
+.contenedor .fotos4{
+    @include tamanos(350px,290px)
+}
+.contenedor .fotos5{
+    @include tamanos(350px,290px)
+}
+.contenedor .fotos6{
+    @include tamanos(350px,290px)
+}
