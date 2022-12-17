@@ -1,0 +1,12 @@
+.contenedor{
+    .contenedor-productos{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        justify-content: space-around;
+        margin-bottom: 25px;
+        .servicio{
+            margin-bottom: 50px;
+        }
+    }
+}

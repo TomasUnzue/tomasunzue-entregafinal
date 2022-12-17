@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ultima-parte{
+    display: inline-block;
+    background-color: $colorfooter;
+    width: 100%;
+    text-align: center;
+}
+.pie-pagina{
+    font-size: $sizefooter;
+}
