@@ -16,32 +16,23 @@
 }
 
 .container {
-<<<<<<< HEAD
   max-width: 100%;
   height: auto;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "reparacion" "celular" "vende";
-  row-gap: 40px;
-  margin: 0 auto;
-  display: contents;
-=======
   height: 100%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "reparacion" "celular" "vende";
   row-gap: 40px;
->>>>>>> 83d89bbcc7f26fbaecd2ce231c7d3079a55cf992
+  margin: 0 auto;
+  display: contents;
 }
 
 section p {
   border: 10px;
   padding: 10px;
   margin: 35px;
-<<<<<<< HEAD
-  font-size: 25px;
+  font-size: 27px;
   flex-wrap: wrap;
 }
 
@@ -49,63 +40,41 @@ section h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
-=======
-  font-size: 20px;
->>>>>>> 83d89bbcc7f26fbaecd2ce231c7d3079a55cf992
 }
 
 .contenedor-reparacion {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-<<<<<<< HEAD
   justify-content: space-around;
-=======
-  justify-content: center;
->>>>>>> 83d89bbcc7f26fbaecd2ce231c7d3079a55cf992
 }
 
 .contenedor-compramos {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   justify-content: space-around;
-=======
-  justify-content: center;
->>>>>>> 83d89bbcc7f26fbaecd2ce231c7d3079a55cf992
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .contenedor-vende {
   display: flex;
-<<<<<<< HEAD
   justify-content: space-around;
-=======
->>>>>>> 83d89bbcc7f26fbaecd2ce231c7d3079a55cf992
   align-items: center;
   font-size: 30px;
   margin-top: 20px;
   flex-wrap: wrap;
-<<<<<<< HEAD
-=======
-  justify-content: center;
->>>>>>> 83d89bbcc7f26fbaecd2ce231c7d3079a55cf992
 }
 
 .reparacion {
   display: flex;
-<<<<<<< HEAD
   width: 350px;
-=======
-  width: 500px;
->>>>>>> 83d89bbcc7f26fbaecd2ce231c7d3079a55cf992
   margin: 20px;
   margin-bottom: 5px;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
   flex-wrap: wrap;
 }
 
@@ -124,21 +93,6 @@ section h3 {
   margin: 20px;
   justify-content: center;
   flex-wrap: wrap;
-=======
-}
-
-.celular {
-  width: 450px;
-  margin-bottom: 10px;
-  margin: 20px;
-  justify-content: center;
-}
-
-.vende {
-  width: 400px;
-  margin: 20px;
-  justify-content: center;
->>>>>>> 83d89bbcc7f26fbaecd2ce231c7d3079a55cf992
 }
 
 .contenedor .contenedor-productos {
