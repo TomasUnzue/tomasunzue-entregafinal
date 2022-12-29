@@ -24,7 +24,7 @@
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "reparacion" "celular" "vende";
-  row-gap: 40px;
+  gap: 40px;
   margin: 0 auto;
   display: contents;
 }
